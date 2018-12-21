@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/main_btnOpenCamrea"
+        android:text="open camrea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/main_btnOpenTranslucentCamrea"
+        android:text="Translucent camrea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/main_btnGoDemo"
+        android:text="demo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/main_btnSetting"
+        android:text="setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/main_btnTest"
+        android:text="broadcast test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

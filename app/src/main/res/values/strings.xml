@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FaceDetectApplication</string>
+    <string name="action_settings">Settings</string>
+    <string name="server_ip">服务器IP</string>
+    <string name="server_port">服务器端口</string>
+    <string name="detect_interval">人脸检测间隔，单位：毫秒</string>
+    <string name="shoot_count">命中次数阈值</string>
+    <string name="camrea_width">相机宽度</string>
+    <string name="camrea_height">相机高度</string>
+    <string name="screen_width">屏幕宽度</string>
+    <string name="screen_height">屏幕高度</string>
+</resources>

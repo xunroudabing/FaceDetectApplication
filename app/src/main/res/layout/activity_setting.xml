@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/setting_editServerIP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/server_ip" />
+
+            <EditText
+                android:id="@+id/setting_editServerPort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/server_port"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/setting_editDetectInterval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/detect_interval"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/setting_editShootCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/shoot_count"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/setting_editCamreaWidth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/camrea_width"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/setting_editCamreaHeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/camrea_height"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/setting_editScreenWidth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/camrea_width"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/setting_editScreenHeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/camrea_height"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/setting_btnSave"
+                android:text="保存"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
